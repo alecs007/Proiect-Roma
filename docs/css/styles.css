@@ -9,7 +9,7 @@
 
 html {
   height: 100%;
-  background-image: url("/img/background2.avif");
+  background-image: url("../img/background2.avif");
   background-size: contain;
   background-size: cover;
   background-repeat: no-repeat;
