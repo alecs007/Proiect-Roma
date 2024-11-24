@@ -1,0 +1,212 @@
+@font-face {
+  font-family: font1;
+  src: url("../fonts/RibeyeMarrow-Regular.ttf");
+}
+@font-face {
+  font-family: font2;
+  src: url("../fonts/Tinos-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.main-container {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "left main main right"
+    "left main main right"
+    "left bot bot right";
+  grid-template-columns: 40vh 1fr 1fr 40vh;
+  grid-template-rows: auto 1fr 5vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: auto;
+  background-color: white;
+}
+.main {
+  grid-area: main;
+  width: calc(100% - 14px);
+  height: 100%;
+  border: 7px solid rgba(0, 0, 0, 0.555);
+  border-bottom: none;
+  border-top: none;
+  background-color: rgba(218, 211, 211, 0.925);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.left {
+  grid-area: left;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 83, 64, 0.644);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right {
+  grid-area: right;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 83, 64, 0.644);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bot {
+  grid-area: bot;
+  width: calc(100% - 14px);
+  height: calc(100% - 7px);
+  border: 7px solid rgba(0, 0, 0, 0.555);
+  border-bottom: none;
+  background-color: rgba(94, 83, 64, 0.397);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+img {
+  width: 80%;
+  height: 20%;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.555);
+  box-shadow: 0 0 20px 5px rgb(0, 0, 0);
+}
+h1 {
+  margin-top: 3%;
+  font-size: 4vw;
+  font-family: font1;
+  text-decoration: underline;
+  text-align: center;
+}
+.p1 {
+  font-family: font2;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: 1.5vw;
+  line-height: 150%;
+  text-indent: 3em;
+}
+.p2 {
+  font-family: font2;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: 1.5vw;
+  line-height: 150%;
+  text-indent: 3em;
+}
+span {
+  font-size: 3.5vw;
+}
+h2 {
+  font-family: font2;
+  font-size: 1vw;
+  margin-right: 10px;
+}
+.button {
+  width: 100px;
+  height: 3vh;
+  border-radius: 100px;
+  font-style: italic;
+  font-weight: bold;
+  overflow: hidden;
+  background: rgba(66, 60, 60, 0.137);
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(0.95);
+  transition: 0.2s;
+  box-shadow: 0 0 5px 3px rgba(83, 92, 82, 0.555);
+}
+img:hover {
+  transform: scale(0.98);
+  box-shadow: 0 0 5px 3px rgba(83, 92, 82, 0.555);
+}
+a{
+  text-decoration: none;
+}
+.back{
+  width:30vw;
+  height:5vh;
+  border: 4px solid rgba(0, 0, 0, 0.555);
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 1.5vh;
+  font-weight: bolder;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .main-container {
+    grid-template-areas:
+    "left main main main"
+    "left main main main"
+    "bot bot bot bot";
+    grid-template-columns: 1fr 10vh 10vh 1fr;
+    grid-template-rows: auto 1fr auto;
+    }
+    .right{
+      display: none ;
+    }
+    .left{
+      justify-content: space-around;
+      overflow: auto;
+    }
+    button{
+      max-height: 40px;
+      min-height: 30px;
+    }
+    h1{
+      font-size: 8vw;
+    }
+    h2{
+      font-size: calc(100% + 1vw);
+      margin-right: 10px;
+      text-align: center;
+      margin-left: 10px;
+    }
+    .p1{
+      font-size: 3vw;
+    }
+    .p2{
+      font-size: 3vw;
+    }
+    img{
+      height: 10%;
+      width:90%;
+      max-width: 250px;
+      min-height: 100px;
+    }
+    .bot{
+      width:100%;
+      min-height: 8vh;
+      border-left: none;
+      border-right: none;
+    }
+  }
+ 
+}
