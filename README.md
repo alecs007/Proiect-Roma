@@ -1,4 +1,5 @@
-# Proiect Roma
+<h1 align="center"><strong>Proiect Roma</strong></h1>
+
 
 „Proiect Roma” este un site dedicat principalelor monumente din Roma. Pe site poți găsi informații despre:
 
