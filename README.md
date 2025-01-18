@@ -1,4 +1,4 @@
-# <h1 align="center"><strong><em>Proiect Roma🏛️</em></strong></h1>
+# <h1 align="center"><strong><em>Proiect Roma 🏛️</em></strong></h1>
 
 
 **Proiect Roma** is a page dedicated to the main monuments of Rome. On the website you can find information about:
