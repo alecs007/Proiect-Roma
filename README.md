@@ -1,7 +1,7 @@
 <h1 align="center"><strong><em>Proiect Roma</em></strong></h1>
 
 
-„Proiect Roma” este un site dedicat principalelor monumente din Roma. Pe site poți găsi informații despre:
+**Proiect Roma** is a page dedicated to the main monuments of Rome. On the website you can find information about:
 
 	•  Colosseum
 	•  Panteon
@@ -12,7 +12,8 @@
 	•  Fontana di Trevi
 	•  Piazza Navona
 
-Site-ul a fost creat ca un proiect școlar și am folosit limbajele HTML și SCSS pentru realizarea lui. Scopul acestui site este să ofere o prezentare simplă și clară a celor mai importante locuri din Roma.
-Vreau să precizez că acesta este unul dintre primele mele proiecte web.
+The website was created as a school project and I used HTML and SCSS languages ​​to create it. The purpose of this site is to provide a simple and clear presentation of the most important places in Rome.
+I want to specify that this is one of my first web projects and every information is in Romanian.
 
-![proiect_roma_ss](https://github.com/user-attachments/assets/fcdf74ce-0afc-495e-bbfa-4a1365e16937)
+![proiect_roma_presentation](https://github.com/user-attachments/assets/8c83a454-c6cc-4aac-aeac-d2f08afc89eb)
+
