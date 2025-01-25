@@ -16,5 +16,6 @@ The website was created as a school project and I used HTML and SCSS languages â
 
 **I want to specify that this is one of my first web projects and every information is in Romanian.**
 
-![proiect_roma_presentation](https://github.com/user-attachments/assets/8c83a454-c6cc-4aac-aeac-d2f08afc89eb)
+![presentation_proiect_roma](https://github.com/user-attachments/assets/b74f2c22-31ba-49b8-9da6-4390f8cf325b)
+
 
